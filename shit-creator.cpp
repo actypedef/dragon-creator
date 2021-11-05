@@ -1,4 +1,4 @@
-// version: 1.0.4 @2021-11-1
+// version: 1.0.0 @2021-11-5
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -47,13 +47,13 @@ int CNT;
 // mt19937 seed(chrono::steady_clock::now().time_since_epoch().count());
 mt19937 seed((unsigned long long)new char);
 #define random(l, r) uniform_int_distribution<long long>(l, r)(seed)
-inline char id(int x) {
+inline string id(int x) {
     switch (x) {
-        case 0: return 'o';
-        case 1: return 'O';
-        case 2: return '0';
+        case 0: return (string)"🐉";
+        case 1: return (string)"🐍";
+        case 2: return (string)"🐲";
     }
-    return 'o';
+    return (string)"🐉";
 }
 
 set<string> holder;
@@ -71,10 +71,9 @@ inline string gen() {
 }
 
 int main() {
-    freopen("test.in", "r", stdin);
-    freopen("shit.cpp", "w", stdout);
+    freopen("in.txt", "r", stdin);
+    freopen("dragon.cpp", "w", stdout);
     init();
-
     string ans = "";
     string s = "", F = ""; 
     bool on = 0;
