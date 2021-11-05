@@ -33,7 +33,7 @@ inline void init() {
         "initializer_list", "tuple", "make_tuple", "tie", "get", "tuple_cat", // <tuple> oOOo0O
         "max", "min", "clear", "greater", "less", "plus", "friend", "this", "puts", "memset", "sizeof", "boolalpha", "volatile",
         "goto", "__gcd", "__builtin_popcount", "__builtin_ctz", "__builtin_clz", "__builtin_ffs", "fill_n",
-        "strlen", "strcat", "strcpy", "memcpy", "memmove", "shuffle", "random_shuffle",
+        "strlen", "strcat", "strcpy", "memcpy", "memmove", "shuffle", "random_shuffle","front","pop_front",
         "isupper", "islower", "isalnum", "isalpha", "rand", "strcmp", "compare", "push_front", "priority_queue", "queue", "deque"
     };
     const int T = 1000;
