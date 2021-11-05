@@ -1,6 +1,8 @@
 # Dragon-creator
 > a program that reads a program and outputs some 🐉-like code. 😍
 
+Xiwon 的 `shit-creator` 的 🐉 ver
+
 简单的替换所有的标识符为 '🐉', '🐲', '🐍' 组成的字符串
 
 原理：提取所有 `[A-Za-z0-9_]+` 匹配的串，然后依次判断是否需要替换
